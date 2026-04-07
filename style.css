@@ -1,0 +1,305 @@
+/* ── Fonts ── */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ── Theme Variables ── */
+:root {
+  --bg: #1a1510;
+  --surface: #221e18;
+  --surface-border: #3a3228;
+  --text-primary: #ffffff;
+  --text-secondary: #c8b89a;
+  --accent: #e8512a;
+  --accent-soft: #2a1410;
+  --accent-glow: rgba(232, 81, 42, 0.15);
+  --glow-color: rgba(180, 120, 60, 0.12);
+  --ghost-opacity: 0.04;
+  --meaning-color: #ffffff;
+  --shadow: rgba(0, 0, 0, 0.6);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: #f0e9dc;
+    --surface: #faf6f0;
+    --surface-border: #d9ccb8;
+    --text-primary: #080400;
+    --text-secondary: #4a3828;
+    --accent: #c0392b;
+    --accent-soft: #f5e6e4;
+    --accent-glow: rgba(192, 57, 43, 0.08);
+    --glow-color: rgba(180, 120, 60, 0.1);
+    --ghost-opacity: 0.04;
+    --meaning-color: #c0392b;
+    --shadow: rgba(80, 50, 20, 0.15);
+    --dot-color: rgba(0, 0, 0, 0.06);
+  }
+}
+
+/* ── Base ── */
+body {
+  background-color: var(--bg);
+  color: var(--text-primary);
+  font-family: 'Noto Serif JP', 'Georgia', serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+/* ── Background Ghost Kanji ── */
+.bg-kanji {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 520px;
+  font-family: 'Noto Serif JP', 'Georgia', serif;
+  color: var(--text-primary);
+  opacity: var(--ghost-opacity);
+  pointer-events: none;
+  user-select: none;
+  line-height: 1;
+  z-index: 0;
+  white-space: nowrap;
+}
+
+/* ── Background Glow ── */
+.bg-glow {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 900px;
+  height: 900px;
+  background: radial-gradient(
+    circle at center,
+    var(--glow-color) 0%,
+    transparent 65%
+  );
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ── Dot Grid ── */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.07) 1px,
+    transparent 1px
+  );
+  background-size: 28px 28px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ── Vignette ── */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(
+    ellipse at center,
+    transparent 40%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ── App Container ── */
+#app {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ── Card ── */
+.kanji-card {
+  background: var(--surface);
+  border: 1px solid var(--surface-border);
+  border-top: 3px solid var(--accent);
+  border-radius: 6px;
+  padding: 40px 56px 48px;
+  text-align: center;
+  box-shadow: 0 8px 48px var(--shadow);
+  max-width: 520px;
+  width: 90%;
+  position: relative;
+}
+
+.kanji-card::before {
+  content: attr(data-kanji);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 320px;
+  font-family: 'Noto Serif JP', 'Georgia', serif;
+  color: var(--text-primary);
+  opacity: var(--ghost-opacity);
+  pointer-events: none;
+  user-select: none;
+  line-height: 1;
+  z-index: 0;
+}
+
+/* ── Header ── */
+.card-header {
+  font-size: 11px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  margin-bottom: 8px;
+  position: relative;
+  z-index: 1;
+}
+
+.day-counter {
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: var(--accent);
+  opacity: 0.8;
+  margin-bottom: 24px;
+  position: relative;
+  z-index: 1;
+}
+
+/* ── Kanji Display ── */
+#kanji-display {
+  width: 160px;
+  height: 160px;
+  margin: 0 auto;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 160px;
+  line-height: 1;
+  color: var(--text-primary);
+  font-family: 'Noto Serif JP', 'Georgia', serif;
+  position: relative;
+  z-index: 1;
+}
+
+#kanji-display.loading {
+  font-size: 12px;
+  color: var(--text-secondary);
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+/* ── Meaning ── */
+.kanji-meaning {
+  font-size: 20px;
+  color: var(--meaning-color);
+  font-weight: 600;
+  margin-top: 28px;
+  margin-bottom: 24px;
+  letter-spacing: 0.5px;
+  position: relative;
+  z-index: 1;
+}
+
+/* ── Readings ── */
+.readings {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 28px;
+  position: relative;
+  z-index: 1;
+}
+
+.reading-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 260px;
+  margin: 0 auto;
+}
+
+.reading-label {
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: 3px;
+  min-width: 40px;
+  text-align: center;
+}
+
+.reading-value {
+  color: var(--text-secondary);
+  font-size: 14px;
+  white-space: nowrap;
+  font-family: 'Noto Serif JP', serif;
+}
+
+/* ── Stroke Count ── */
+.stroke-count {
+  font-size: 11px;
+  color: var(--text-secondary);
+  border-top: 1px solid var(--surface-border);
+  padding-top: 20px;
+  margin-bottom: 20px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+}
+
+/* ── Button ── */
+.stroke-btn {
+  padding: 11px 0;
+  width: 200px;
+  background: transparent;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: 3px;
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: 'Noto Serif JP', serif;
+  white-space: nowrap;
+  position: relative;
+  z-index: 1;
+}
+
+.stroke-btn:hover {
+  background: var(--accent);
+  color: #ffffff;
+}
+
+/* ── Ghost Kanji inside card ── */
+.ghost-kanji {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 300px;
+  font-family: 'Noto Serif JP', 'Georgia', serif;
+  color: var(--text-primary);
+  opacity: 0.05;
+  pointer-events: none;
+  user-select: none;
+  line-height: 1;
+  z-index: 0;
+}

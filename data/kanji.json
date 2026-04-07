@@ -1,0 +1,642 @@
+[
+  {
+    "id": 1,
+    "kanji": "日",
+    "meaning": "Sun / Day",
+    "kunyomi": "ひ (hi)",
+    "onyomi": "ニチ (nichi) · ジツ (jitsu)",
+    "strokeCount": 4
+  },
+  {
+    "id": 2,
+    "kanji": "一",
+    "meaning": "One",
+    "kunyomi": "ひと (hito)",
+    "onyomi": "イチ (ichi) · イツ (itsu)",
+    "strokeCount": 1
+  },
+  {
+    "id": 3,
+    "kanji": "国",
+    "meaning": "Country",
+    "kunyomi": "くに (kuni)",
+    "onyomi": "コク (koku)",
+    "strokeCount": 8
+  },
+  {
+    "id": 4,
+    "kanji": "人",
+    "meaning": "Person",
+    "kunyomi": "ひと (hito)",
+    "onyomi": "ジン (jin) · ニン (nin)",
+    "strokeCount": 2
+  },
+  {
+    "id": 5,
+    "kanji": "年",
+    "meaning": "Year",
+    "kunyomi": "とし (toshi)",
+    "onyomi": "ネン (nen)",
+    "strokeCount": 6
+  },
+  {
+    "id": 6,
+    "kanji": "大",
+    "meaning": "Big / Large",
+    "kunyomi": "おお (oo)",
+    "onyomi": "ダイ (dai) · タイ (tai)",
+    "strokeCount": 3
+  },
+  {
+    "id": 7,
+    "kanji": "十",
+    "meaning": "Ten",
+    "kunyomi": "とお (too)",
+    "onyomi": "ジュウ (juu) · ジッ (jit)",
+    "strokeCount": 2
+  },
+  {
+    "id": 8,
+    "kanji": "二",
+    "meaning": "Two",
+    "kunyomi": "ふた (futa)",
+    "onyomi": "ニ (ni) · ジ (ji)",
+    "strokeCount": 2
+  },
+  {
+    "id": 9,
+    "kanji": "本",
+    "meaning": "Book / Origin",
+    "kunyomi": "もと (moto)",
+    "onyomi": "ホン (hon)",
+    "strokeCount": 5
+  },
+  {
+    "id": 10,
+    "kanji": "中",
+    "meaning": "Middle / Inside",
+    "kunyomi": "なか (naka)",
+    "onyomi": "チュウ (chuu)",
+    "strokeCount": 4
+  },
+  {
+    "id": 11,
+    "kanji": "長",
+    "meaning": "Long / Chief",
+    "kunyomi": "なが (naga)",
+    "onyomi": "チョウ (choo)",
+    "strokeCount": 8
+  },
+  {
+    "id": 12,
+    "kanji": "出",
+    "meaning": "Exit / Leave",
+    "kunyomi": "で (de) · だ (da)",
+    "onyomi": "シュツ (shutsu) · スイ (sui)",
+    "strokeCount": 5
+  },
+  {
+    "id": 13,
+    "kanji": "三",
+    "meaning": "Three",
+    "kunyomi": "み (mi) · みっ (mit)",
+    "onyomi": "サン (san)",
+    "strokeCount": 3
+  },
+  {
+    "id": 14,
+    "kanji": "時",
+    "meaning": "Time / Hour",
+    "kunyomi": "とき (toki)",
+    "onyomi": "ジ (ji)",
+    "strokeCount": 10
+  },
+  {
+    "id": 15,
+    "kanji": "行",
+    "meaning": "Go / Travel",
+    "kunyomi": "い (i) · ゆ (yu)",
+    "onyomi": "コウ (koo) · ギョウ (gyoo)",
+    "strokeCount": 6
+  },
+  {
+    "id": 16,
+    "kanji": "見",
+    "meaning": "See / Look",
+    "kunyomi": "み (mi)",
+    "onyomi": "ケン (ken)",
+    "strokeCount": 7
+  },
+  {
+    "id": 17,
+    "kanji": "月",
+    "meaning": "Moon / Month",
+    "kunyomi": "つき (tsuki)",
+    "onyomi": "ゲツ (getsu) · ガツ (gatsu)",
+    "strokeCount": 4
+  },
+  {
+    "id": 18,
+    "kanji": "分",
+    "meaning": "Minute / Divide",
+    "kunyomi": "わ (wa)",
+    "onyomi": "フン (fun) · ブン (bun)",
+    "strokeCount": 4
+  },
+  {
+    "id": 19,
+    "kanji": "後",
+    "meaning": "After / Behind",
+    "kunyomi": "あと (ato) · うし (ushi)",
+    "onyomi": "ゴ (go) · コウ (koo)",
+    "strokeCount": 9
+  },
+  {
+    "id": 20,
+    "kanji": "前",
+    "meaning": "Before / Front",
+    "kunyomi": "まえ (mae)",
+    "onyomi": "ゼン (zen)",
+    "strokeCount": 9
+  },
+  {
+    "id": 21,
+    "kanji": "生",
+    "meaning": "Life / Birth",
+    "kunyomi": "い (i) · なま (nama)",
+    "onyomi": "セイ (sei) · ショウ (shoo)",
+    "strokeCount": 5
+  },
+  {
+    "id": 22,
+    "kanji": "五",
+    "meaning": "Five",
+    "kunyomi": "いつ (itsu)",
+    "onyomi": "ゴ (go)",
+    "strokeCount": 4
+  },
+  {
+    "id": 23,
+    "kanji": "間",
+    "meaning": "Between / Interval",
+    "kunyomi": "あいだ (aida) · ま (ma)",
+    "onyomi": "カン (kan) · ケン (ken)",
+    "strokeCount": 12
+  },
+  {
+    "id": 24,
+    "kanji": "上",
+    "meaning": "Above / Up",
+    "kunyomi": "うえ (ue) · のぼ (nobo)",
+    "onyomi": "ジョウ (joo) · ショウ (shoo)",
+    "strokeCount": 3
+  },
+  {
+    "id": 25,
+    "kanji": "東",
+    "meaning": "East",
+    "kunyomi": "ひがし (higashi)",
+    "onyomi": "トウ (too)",
+    "strokeCount": 8
+  },
+  {
+    "id": 26,
+    "kanji": "四",
+    "meaning": "Four",
+    "kunyomi": "よ (yo) · よっ (yot)",
+    "onyomi": "シ (shi)",
+    "strokeCount": 5
+  },
+  {
+    "id": 27,
+    "kanji": "今",
+    "meaning": "Now / Present",
+    "kunyomi": "いま (ima)",
+    "onyomi": "コン (kon) · キン (kin)",
+    "strokeCount": 4
+  },
+  {
+    "id": 28,
+    "kanji": "金",
+    "meaning": "Gold / Money",
+    "kunyomi": "かね (kane)",
+    "onyomi": "キン (kin) · コン (kon)",
+    "strokeCount": 8
+  },
+  {
+    "id": 29,
+    "kanji": "九",
+    "meaning": "Nine",
+    "kunyomi": "ここの (kokono)",
+    "onyomi": "キュウ (kyuu) · ク (ku)",
+    "strokeCount": 2
+  },
+  {
+    "id": 30,
+    "kanji": "入",
+    "meaning": "Enter",
+    "kunyomi": "い (i) · はい (hai)",
+    "onyomi": "ニュウ (nyuu)",
+    "strokeCount": 2
+  },
+  {
+    "id": 31,
+    "kanji": "学",
+    "meaning": "Study / Learn",
+    "kunyomi": "まな (mana)",
+    "onyomi": "ガク (gaku)",
+    "strokeCount": 8
+  },
+  {
+    "id": 32,
+    "kanji": "高",
+    "meaning": "High / Tall / Expensive",
+    "kunyomi": "たか (taka)",
+    "onyomi": "コウ (koo)",
+    "strokeCount": 10
+  },
+  {
+    "id": 33,
+    "kanji": "円",
+    "meaning": "Yen / Circle",
+    "kunyomi": "まる (maru)",
+    "onyomi": "エン (en)",
+    "strokeCount": 4
+  },
+  {
+    "id": 34,
+    "kanji": "子",
+    "meaning": "Child",
+    "kunyomi": "こ (ko)",
+    "onyomi": "シ (shi) · ス (su)",
+    "strokeCount": 3
+  },
+  {
+    "id": 35,
+    "kanji": "外",
+    "meaning": "Outside",
+    "kunyomi": "そと (soto) · ほか (hoka)",
+    "onyomi": "ガイ (gai) · ゲ (ge)",
+    "strokeCount": 5
+  },
+  {
+    "id": 36,
+    "kanji": "八",
+    "meaning": "Eight",
+    "kunyomi": "や (ya) · やっ (yat)",
+    "onyomi": "ハチ (hachi)",
+    "strokeCount": 2
+  },
+  {
+    "id": 37,
+    "kanji": "六",
+    "meaning": "Six",
+    "kunyomi": "む (mu) · むっ (mut)",
+    "onyomi": "ロク (roku)",
+    "strokeCount": 4
+  },
+  {
+    "id": 38,
+    "kanji": "下",
+    "meaning": "Below / Down",
+    "kunyomi": "した (shita) · くだ (kuda)",
+    "onyomi": "カ (ka) · ゲ (ge)",
+    "strokeCount": 3
+  },
+  {
+    "id": 39,
+    "kanji": "来",
+    "meaning": "Come",
+    "kunyomi": "く (ku) · き (ki)",
+    "onyomi": "ライ (rai)",
+    "strokeCount": 7
+  },
+  {
+    "id": 40,
+    "kanji": "気",
+    "meaning": "Spirit / Energy / Feeling",
+    "kunyomi": "き (ki) · け (ke)",
+    "onyomi": "キ (ki) · ケ (ke)",
+    "strokeCount": 6
+  },
+  {
+    "id": 41,
+    "kanji": "小",
+    "meaning": "Small / Little",
+    "kunyomi": "ちい (chii) · こ (ko)",
+    "onyomi": "ショウ (shoo)",
+    "strokeCount": 3
+  },
+  {
+    "id": 42,
+    "kanji": "七",
+    "meaning": "Seven",
+    "kunyomi": "なな (nana) · なの (nano)",
+    "onyomi": "シチ (shichi)",
+    "strokeCount": 2
+  },
+  {
+    "id": 43,
+    "kanji": "山",
+    "meaning": "Mountain",
+    "kunyomi": "やま (yama)",
+    "onyomi": "サン (san)",
+    "strokeCount": 3
+  },
+  {
+    "id": 44,
+    "kanji": "話",
+    "meaning": "Talk / Story",
+    "kunyomi": "はな (hana) · はなし (hanashi)",
+    "onyomi": "ワ (wa)",
+    "strokeCount": 13
+  },
+  {
+    "id": 45,
+    "kanji": "女",
+    "meaning": "Woman / Female",
+    "kunyomi": "おんな (onna) · め (me)",
+    "onyomi": "ジョ (jo) · ニョ (nyo)",
+    "strokeCount": 3
+  },
+  {
+    "id": 46,
+    "kanji": "北",
+    "meaning": "North",
+    "kunyomi": "きた (kita)",
+    "onyomi": "ホク (hoku)",
+    "strokeCount": 5
+  },
+  {
+    "id": 47,
+    "kanji": "午",
+    "meaning": "Noon / Midday",
+    "kunyomi": "うま (uma)",
+    "onyomi": "ゴ (go)",
+    "strokeCount": 4
+  },
+  {
+    "id": 48,
+    "kanji": "百",
+    "meaning": "Hundred",
+    "kunyomi": "もも (momo)",
+    "onyomi": "ヒャク (hyaku)",
+    "strokeCount": 6
+  },
+  {
+    "id": 49,
+    "kanji": "書",
+    "meaning": "Write",
+    "kunyomi": "か (ka)",
+    "onyomi": "ショ (sho)",
+    "strokeCount": 10
+  },
+  {
+    "id": 50,
+    "kanji": "先",
+    "meaning": "Before / Previous / Ahead",
+    "kunyomi": "さき (saki)",
+    "onyomi": "セン (sen)",
+    "strokeCount": 6
+  },
+  {
+    "id": 51,
+    "kanji": "名",
+    "meaning": "Name",
+    "kunyomi": "な (na)",
+    "onyomi": "メイ (mei) · ミョウ (myoo)",
+    "strokeCount": 6
+  },
+  {
+    "id": 52,
+    "kanji": "川",
+    "meaning": "River",
+    "kunyomi": "かわ (kawa)",
+    "onyomi": "セン (sen)",
+    "strokeCount": 3
+  },
+  {
+    "id": 53,
+    "kanji": "千",
+    "meaning": "Thousand",
+    "kunyomi": "ち (chi)",
+    "onyomi": "セン (sen)",
+    "strokeCount": 3
+  },
+  {
+    "id": 54,
+    "kanji": "水",
+    "meaning": "Water",
+    "kunyomi": "みず (mizu)",
+    "onyomi": "スイ (sui)",
+    "strokeCount": 4
+  },
+  {
+    "id": 55,
+    "kanji": "半",
+    "meaning": "Half",
+    "kunyomi": "なか (naka)",
+    "onyomi": "ハン (han)",
+    "strokeCount": 5
+  },
+  {
+    "id": 56,
+    "kanji": "男",
+    "meaning": "Man / Male",
+    "kunyomi": "おとこ (otoko)",
+    "onyomi": "ダン (dan) · ナン (nan)",
+    "strokeCount": 7
+  },
+  {
+    "id": 57,
+    "kanji": "西",
+    "meaning": "West",
+    "kunyomi": "にし (nishi)",
+    "onyomi": "セイ (sei) · サイ (sai)",
+    "strokeCount": 6
+  },
+  {
+    "id": 58,
+    "kanji": "電",
+    "meaning": "Electricity",
+    "kunyomi": "いなずま (inazuma)",
+    "onyomi": "デン (den)",
+    "strokeCount": 13
+  },
+  {
+    "id": 59,
+    "kanji": "語",
+    "meaning": "Language / Word",
+    "kunyomi": "かた (kata)",
+    "onyomi": "ゴ (go)",
+    "strokeCount": 14
+  },
+  {
+    "id": 60,
+    "kanji": "読",
+    "meaning": "Read",
+    "kunyomi": "よ (yo)",
+    "onyomi": "ドク (doku) · トク (toku)",
+    "strokeCount": 14
+  },
+  {
+    "id": 61,
+    "kanji": "友",
+    "meaning": "Friend",
+    "kunyomi": "とも (tomo)",
+    "onyomi": "ユウ (yuu)",
+    "strokeCount": 4
+  },
+  {
+    "id": 62,
+    "kanji": "左",
+    "meaning": "Left",
+    "kunyomi": "ひだり (hidari)",
+    "onyomi": "サ (sa)",
+    "strokeCount": 5
+  },
+  {
+    "id": 63,
+    "kanji": "右",
+    "meaning": "Right",
+    "kunyomi": "みぎ (migi)",
+    "onyomi": "ウ (u) · ユウ (yuu)",
+    "strokeCount": 5
+  },
+  {
+    "id": 64,
+    "kanji": "雨",
+    "meaning": "Rain",
+    "kunyomi": "あめ (ame) · あま (ama)",
+    "onyomi": "ウ (u)",
+    "strokeCount": 8
+  },
+  {
+    "id": 65,
+    "kanji": "万",
+    "meaning": "Ten Thousand",
+    "kunyomi": "よろず (yorozu)",
+    "onyomi": "マン (man) · バン (ban)",
+    "strokeCount": 3
+  },
+  {
+    "id": 66,
+    "kanji": "何",
+    "meaning": "What / How many",
+    "kunyomi": "なに (nani) · なん (nan)",
+    "onyomi": "カ (ka)",
+    "strokeCount": 7
+  },
+  {
+    "id": 67,
+    "kanji": "南",
+    "meaning": "South",
+    "kunyomi": "みなみ (minami)",
+    "onyomi": "ナン (nan) · ナ (na)",
+    "strokeCount": 9
+  },
+  {
+    "id": 68,
+    "kanji": "新",
+    "meaning": "New",
+    "kunyomi": "あたら (atara) · あら (ara)",
+    "onyomi": "シン (shin)",
+    "strokeCount": 13
+  },
+  {
+    "id": 69,
+    "kanji": "聞",
+    "meaning": "Listen / Hear / Ask",
+    "kunyomi": "き (ki)",
+    "onyomi": "ブン (bun) · モン (mon)",
+    "strokeCount": 14
+  },
+  {
+    "id": 70,
+    "kanji": "食",
+    "meaning": "Eat / Food",
+    "kunyomi": "た (ta) · く (ku)",
+    "onyomi": "ショク (shoku) · ジキ (jiki)",
+    "strokeCount": 9
+  },
+  {
+    "id": 71,
+    "kanji": "車",
+    "meaning": "Car / Vehicle",
+    "kunyomi": "くるま (kuruma)",
+    "onyomi": "シャ (sha)",
+    "strokeCount": 7
+  },
+  {
+    "id": 72,
+    "kanji": "土",
+    "meaning": "Ground / Earth / Soil",
+    "kunyomi": "つち (tsuchi)",
+    "onyomi": "ド (do) · ト (to)",
+    "strokeCount": 3
+  },
+  {
+    "id": 73,
+    "kanji": "白",
+    "meaning": "White",
+    "kunyomi": "しろ (shiro) · しら (shira)",
+    "onyomi": "ハク (haku) · ビャク (byaku)",
+    "strokeCount": 5
+  },
+  {
+    "id": 74,
+    "kanji": "天",
+    "meaning": "Heaven / Sky",
+    "kunyomi": "あめ (ame) · あま (ama)",
+    "onyomi": "テン (ten)",
+    "strokeCount": 4
+  },
+  {
+    "id": 75,
+    "kanji": "毎",
+    "meaning": "Every",
+    "kunyomi": "ごと (goto)",
+    "onyomi": "マイ (mai)",
+    "strokeCount": 6
+  },
+  {
+    "id": 76,
+    "kanji": "安",
+    "meaning": "Cheap / Safe / Peaceful",
+    "kunyomi": "やす (yasu)",
+    "onyomi": "アン (an)",
+    "strokeCount": 6
+  },
+  {
+    "id": 77,
+    "kanji": "火",
+    "meaning": "Fire",
+    "kunyomi": "ひ (hi) · ほ (ho)",
+    "onyomi": "カ (ka)",
+    "strokeCount": 4
+  },
+  {
+    "id": 78,
+    "kanji": "母",
+    "meaning": "Mother",
+    "kunyomi": "はは (haha)",
+    "onyomi": "ボ (bo)",
+    "strokeCount": 5
+  },
+  {
+    "id": 79,
+    "kanji": "父",
+    "meaning": "Father",
+    "kunyomi": "ちち (chichi)",
+    "onyomi": "フ (fu)",
+    "strokeCount": 4
+  },
+  {
+    "id": 80,
+    "kanji": "木",
+    "meaning": "Tree / Wood",
+    "kunyomi": "き (ki) · こ (ko)",
+    "onyomi": "モク (moku) · ボク (boku)",
+    "strokeCount": 4
+  }
+]
