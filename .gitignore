@@ -1,0 +1,5 @@
+# Windows alternate data streams
+*.Zone.Identifier
+
+# Build artifacts
+*.zip
